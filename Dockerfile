@@ -67,7 +67,7 @@ RUN cd $HOME/work;\
     cd qMRLab; \
     git checkout a034b176d05c024dbf6bf8b4a2275688ce56e483; \
     cd ..; \
-    chmod -R 777 $HOME/work/b1_maps; \
+    chmod -R 777 $HOME/work/b1_map; \
     octave --eval "cd qMRLab; \
                       startup; \
                       pkg list;"
