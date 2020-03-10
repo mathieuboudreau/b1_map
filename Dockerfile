@@ -65,7 +65,7 @@ RUN cd $HOME/work;\
     cd b1_map;\
     git clone https://github.com/neuropoly/qMRLab.git;   \
     cd qMRLab; \
-    git checkout a034b176d05c024dbf6bf8b4a2275688ce56e483; \
+    git checkout master; \
     cd ..; \
     chmod -R 777 $HOME/work/b1_map; \
     octave --eval "cd qMRLab; \
