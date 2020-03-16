@@ -63,6 +63,7 @@ RUN cd $HOME/work;\
     python -m sos_notebook.install;\
     git clone https://github.com/MartinaBoshkovska/b1_map.git;    \
     cd b1_map;\
+    git checkout results_bank;\
     git clone https://github.com/neuropoly/qMRLab.git;   \
     cd qMRLab; \
     git checkout master; \
