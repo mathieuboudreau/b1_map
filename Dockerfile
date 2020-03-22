@@ -54,11 +54,15 @@ RUN cd $HOME/work;\
                 sos-r==0.9.12.2 \
                 scipy \
                 plotly==3.10.0 \
+                nibabel \
                 dash \
                 dash_core_components \
                 dash_html_components \
                 dash_dangerously_set_inner_html \
                 dash-renderer \
+                plotly_express \
+                matplotlib \
+                numpy \
                 flask; \
     python -m sos_notebook.install;\
     git clone https://github.com/MartinaBoshkovska/b1_map.git;     \
