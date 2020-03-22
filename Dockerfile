@@ -61,6 +61,7 @@ RUN cd $HOME/work;\
                 dash_dangerously_set_inner_html \
                 dash-renderer \
                 plotly_express \
+                jupyter_plotly_dash \
                 matplotlib \
                 numpy \
                 flask; \
