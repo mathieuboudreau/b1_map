@@ -60,6 +60,7 @@ RUN cd $HOME/work;\
                 dash_html_components \
                 dash_dangerously_set_inner_html \
                 dash-renderer \
+                jupyter_plotly_dash \
                 plotly_express \
                 jupyter_plotly_dash \
                 matplotlib \
