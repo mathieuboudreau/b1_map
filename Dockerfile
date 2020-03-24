@@ -53,8 +53,8 @@ RUN cd $HOME/work;\
                 sos-javascript==0.9.12.2 \
                 sos-r==0.9.12.2 \
                 scipy \
-                plotly==3.10.0 \
-                plotly_express==0.3.1 \
+                plotly==4.4.1 \
+                plotly_express==0.4.1 \
                 nibabel \
                 dash \
                 dash_core_components \
