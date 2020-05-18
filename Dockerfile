@@ -65,7 +65,7 @@ RUN cd $HOME/work;\
                 jupyter_plotly_dash \
                 flask; \
     python -m sos_notebook.install;\
-    git clone https://github.com/MartinaBoshkovska/b1_map.git;         \
+    git clone -b old_branch https://github.com/MartinaBoshkovska/b1_map.git;         \
     cd b1_map;\
     git clone https://github.com/neuropoly/qMRLab.git;   \
     cd qMRLab; \
