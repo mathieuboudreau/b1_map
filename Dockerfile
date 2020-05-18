@@ -41,7 +41,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN cd $HOME/work;\
-    pip install octave_kernel \
+    pip install octave_kernel==0.31.1 \
                 sos==0.17.7 \
                 sos-notebook==0.17.2 \
                 sos-python==0.9.12.1 \
@@ -52,18 +52,17 @@ RUN cd $HOME/work;\
                 sos-julia==0.9.12.1 \
                 sos-javascript==0.9.12.2 \
                 sos-r==0.9.12.2 \
-                scipy \
+                scipy==1.4.1 \
                 plotly==4.4.1 \
                 plotly_express==0.4.1 \
-                nibabel \
-                dash \
-                dash_core_components \
-                dash_html_components \
-                dash_dangerously_set_inner_html \
-                dash-renderer \
-                jupyter_plotly_dash \
-                jupyter_plotly_dash \
-                flask; \
+                nibabel==3.0.2 \
+                dash==1.11.0 \
+                dash_core_components==1.9.1 \
+                dash_html_components==1.0.3 \
+                dash_dangerously_set_inner_html==0.0.2 \
+                dash-renderer==1.4.0 \
+                jupyter_plotly_dash==0.4.2 \
+                flask==1.1.2; \
     python -m sos_notebook.install;\
     git clone -b old_branch https://github.com/mathieuboudreau/b1_map.git;         \
     cd b1_map;\
